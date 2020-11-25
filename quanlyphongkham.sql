@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 07, 2020 at 09:16 AM
+-- Generation Time: Nov 07, 2020 at 09:16 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.3
 
@@ -41,7 +41,7 @@ CREATE TABLE `baocaodoanhthu` (
 --
 
 INSERT INTO `baocaodoanhthu` (`MaBCDT`, `ThangNam`, `TongDoanhThu`, `created_at`, `updated_at`) VALUES
-(2, '06/2020', 2662000, '2020-05-13 02:17:28', '2020-06-21 05:07:21'),
+(2, '11/2020', 2662000, '2020-10-13 02:17:28', '2020-11-21 05:07:21'),
 (3, '05/2020', 944000, '2020-05-13 02:58:53', '2020-05-23 16:11:55'),
 (4, '07/2020', 1880000, '2020-07-01 05:06:39', '2020-07-07 06:39:45');
 
