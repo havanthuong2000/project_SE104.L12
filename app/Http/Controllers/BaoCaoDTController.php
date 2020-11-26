@@ -139,7 +139,7 @@ class BaoCaoDTController extends Controller
         echo "<tr>";
         echo "<td colspan='5'>Không có dữ liệu</td>";
         echo "</tr>";
-             echo count($CTBCDT);
+            // echo count($CTBCDT);
       } else {
         $BCDT = BaoCaoDoanhThu::where('ThangNam', $Month . "/" . $Year)->first();
         $CTBCDT = ChiTietBCDT::where('MaBCDT', $BCDT->MaBCDT)->get();
@@ -149,7 +149,7 @@ class BaoCaoDTController extends Controller
           echo "<td>" . ($detail->Ngay < 10 ? "0" . $detail->Ngay : $detail->Ngay) . "/" . $detail->baocaodoanhthu->ThangNam . "</td>";
           echo "<td>" . $detail->SoBenhNhan . "</td>";
           echo "<td>" . number_format($detail->DoanhThu) . " VND</td>";
-          echo "<td>" . round(($detail->DoanhThu / $detail->baocaodoanhthu->TongDoanhThu) * 100, 2) . "%</td>";
+          //echo "<td>" . round(($detail->DoanhThu / $detail->baocaodoanhthu->TongDoanhThu) * 100, 2) . "%</td>";
           echo "</tr>";
         }
       }
