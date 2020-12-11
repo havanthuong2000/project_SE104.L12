@@ -70,7 +70,7 @@ class NhapThuocController extends Controller
         $CTPNT->MaPNT = $PhieuNhapThuoc->MaPNT;
         $CTPNT->MaThuoc = $detail->MaThuoc;
         $CTPNT->SoLuongNhap = $SoLuong * 1;
-       // $CTPNT->DonGiaNhap = $DonGiaThuoc;
+        $CTPNT->DonGiaNhap = $DonGiaThuoc;
 
         $ThanhTien = $DonGiaThuoc * $SoLuong * 1;
 

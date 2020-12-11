@@ -77,6 +77,11 @@
                 <?php $i = 0; ?>
                 @if(isset($CTBCDT))
                 @foreach($CTBCDT as $detail)
+
+                  <!-- @if($detail->baocaodoanhthu->TongDoanhThu == 0)  
+                    {{route('cronjobthem-bcdt.get')}}
+                  @endif -->
+
                 <tr>
                   <td>{{++$i}}</td>
                   <td>{{$detail->Ngay<10?"0".$detail->Ngay:$detail->Ngay}}/{{$detail->baocaodoanhthu->ThangNam}}</td>

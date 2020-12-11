@@ -107,8 +107,8 @@ class LoaiBenhController extends Controller
         return redirect()->route('ds-loaibenh.get')->withErrors($errors);
       }
       $LoaiBenh = LoaiBenh::find($id);
-      //$LoaiBenh->delete();
-     // return redirect()->route('ds-loaibenh.get')->with('success', 'Xóa thành công.');
+      $LoaiBenh->delete();
+      return redirect()->route('ds-loaibenh.get')->with('success', 'Xóa thành công.');
     }
   }
 }
