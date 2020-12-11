@@ -116,7 +116,7 @@
 @section('script-ori')
 @endsection
 @section('script')
-<script>
+<!-- <script>
   function getdsbaocao(value) {
 
     var token = $("input[name='_token']").val();
@@ -135,5 +135,5 @@
       }
     });
   }
-</script>
+</script> -->
 @endsection
