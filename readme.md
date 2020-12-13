@@ -10,9 +10,9 @@ Quản lý phòng khám (phòng mạch tư) là đồ án môn "Nhập môn côn
 - Quản lý phiếu khám bệnh (DS các phiếu khám bệnh, thêm xóa, sửa phiếu khám bệnh).
 - Kê đơn thuốc và xuất đơn thuốc + hóa đơn cho bệnh nhân.
 - Tự động lập danh sách bệnh nhân khám theo từng ngày.
-- Tra cứu bệnh nhân theo các từ khóa triệu chứng, họ tên, v.v...
+- Tra cứu bệnh nhân theo các từ khóa triệu chứng, họ tên.
 - Quản lý loại bệnh.
-- Quản lý thuốc (quản lý đơn vị, cách dùng).
+- Quản lý thuốc.
 - Xem báo cáo thống kê doanh thu theo từng ngày, tháng.
 - Xem báo cáo thống kê sử dụng thuốc theo từng ngày, tháng.
 - Quản lý các quy định như: số bệnh nhân tối đa khám trong 1 ngày, số tiền khám niêm yết.
