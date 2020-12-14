@@ -130,8 +130,8 @@
         "key": value
 
       },
-      success: function(data) {
-        $("#tbodydskhambenh").html(data);
+      //success: function(data) {
+      //  $("#tbodydskhambenh").html(data);
       }
     });
   }
